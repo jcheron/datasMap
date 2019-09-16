@@ -21,6 +21,14 @@ public class Place {
 		this.parent=parent;
 		sites=new ArrayList<>();
 	}
+	
+	public void addEvent(String name,String description,String groups,String typeName) {
+		
+	}
+	
+	public void addEvent(String name,String description,String groups,Type type) {
+		
+	}
 
 	public String getAddress() {
 		String result=address;
