@@ -23,6 +23,14 @@ public class Application {
 		return places;
 	}
 	
+	public List<Place> getPlacesByAddress(String address){
+		return null;
+	}
+	
+	public List<Place> getPlacesByGps(double latitude,double longitude){
+		return null;
+	}
+	
 	public List<Place> getPlacesByEvtGroups(String groupName){
 		return null;
 	}

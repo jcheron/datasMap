@@ -12,6 +12,12 @@ public class Event {
 		
 	}
 	
+	/**
+	 * 
+	 * 
+	 * @param groupName
+	 * @return
+	 */
 	public boolean hasGroup(String groupName) {
 		return false;
 	}
